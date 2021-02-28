@@ -1,0 +1,135 @@
+/*768px以上のｃｓｓ*/
+@media (min-width: 768px) {
+  header {
+    height: 80px;
+  }
+
+  .header-left {
+    margin: 23px;
+  }
+
+  .header-left img {
+    height: 33px;
+  }
+
+  nav ul {
+    display: block;
+    margin-right: 30px;
+    margin-top: 20px;
+  }
+
+  nav li {
+    float: left;
+    font-size: 12px;
+    margin-left: 5px;
+    height: 35px;
+    line-height: 35px;
+  }
+
+  nav li a {
+    display: block;
+    padding: 0 20px;
+    font-weight: bold;
+    color: gray;
+  }
+
+  nav li a:hover{
+    background-color: #b99566;
+    color: white;
+  }
+
+  .short {
+    display: none;
+  }
+
+  .info {
+    margin-bottom: 20px;
+  }
+
+  .info-name {
+    font-size: 18px;
+    margin-top: 35px;
+  }
+
+  .time ul li {
+    height: 35px;
+  }
+
+  .time ul li time {
+    font-size: 14px;
+  }
+
+  .time ul li p {
+    display: inline-block;
+  }
+
+  .food {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+
+  .food-list {
+    flex: auto;
+    width: 50%;
+    padding: 5px;
+  }
+
+  .food-name h2 {
+    font-size: 20px;
+  }
+
+  .food-list p {
+    font-size: 18px;
+  }
+
+  .bottom {
+    margin-top: 50px;
+  }
+
+
+  .bottom ul {
+  }
+
+  .bottom li {
+    margin: 0 8px;
+    display: inline-block;
+    width: 120px;
+  }
+
+  footer img {
+    height: 25px;
+  }
+
+}
+
+
+/*ここから１０００ｐｘのｃｓｓ*/
+@media (min-width: 1000px){
+  *{
+    list-style: none;
+  }
+
+  .container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .food {
+    padding: 0px;
+    margin-top: 10px;
+  }
+
+  .food-list {
+    padding: 0px;
+  }
+
+  .right {
+    padding-left: 5px;
+  }
+
+  .left {
+    padding-right: 5px;
+  }
+
+}
