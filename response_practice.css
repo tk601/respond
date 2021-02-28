@@ -1,0 +1,174 @@
+*{
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 60px;
+  background-color: white;
+  width: 100%;
+  position: fixed;
+}
+
+.header-left {
+  margin: 15px;
+  float: left;
+}
+
+.header-left img {
+  height: 25px;
+}
+
+.header-left img a {
+  display: block;
+}
+
+.short {
+  float: right;
+  margin-right: 25px;
+  margin-top: 20px;
+}
+
+.short span {
+  display: block;
+  background-color: gray;
+  height: 3px;
+  width: 30px;
+  margin-bottom: 8px;
+}
+
+nav ul {
+  float: right;
+  display: none;
+}
+
+.image {
+  margin-top: 60px;
+  width: 100%;
+}
+
+.info-name {
+  color: white;
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  background-color: #b99566;
+  line-height: 40px;
+  padding-left: 15px;
+}
+
+.time ul li {
+  height: 53px;
+  color: #54514c;
+  padding: 10px;
+}
+
+.time ul li time {
+  display: inline-block;
+  font-size: 11px;
+  margin-bottom: 8px;
+}
+
+.time ul li p {
+  font-size: 14px;
+  margin-left: 2px;
+}
+
+.li-color1 {
+  background-color: #f5f3f0;
+}
+
+.food {
+  padding: 10px;
+}
+
+.food img {
+  width: 100%;
+}
+
+.food-list {
+  margin-bottom: 30px;
+}
+
+.food-list p {
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+.food-name {
+  border-left: 4px solid #b99566;
+  height: 55px;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+
+.food-name h2 {
+  padding: 5px 0;
+  color: gray;
+}
+
+.food-name ul li{
+  display: inline-block;
+  background-color: #b99566;
+  border-radius: 5px;
+  color: white;
+  font-size: 11px;
+  padding: 5px 10px;
+  margin-right: 7px;
+}
+
+.bottom {
+  background-color: gray;
+  width: 100%;
+}
+
+.bottom ul {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.bottom li {
+  width: 282px;
+  height: 32px;
+  color: white;
+  border: 1px solid white;
+  background-color: gray;
+  margin: 9px auto;
+  line-height: 32px;
+  border-radius: 4px;
+  font-size: 14px;
+  display: block;
+}
+
+.bottom a {
+  color: white;
+  display: block;
+}
+
+.bottom a:hover{
+  transition: 0.5s ;
+  background-color: white;
+  color: black;
+}
+
+footer {
+  height: 80px;
+  text-align: center;
+}
+
+footer a {
+  display: inline-block;
+  margin: 16px;
+}
+
+footer img {
+  height: 20px;
+}
+
+footer p {
+  line-height: 30px;
+  font-size: 10px;
+}
