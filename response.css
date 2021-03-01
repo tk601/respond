@@ -12,33 +12,42 @@
     height: 33px;
   }
 
-  nav ul {
+  .drawerMenu {
     display: block;
-    margin-right: 30px;
-    margin-top: 20px;
   }
 
-  nav li {
-    float: left;
+  .drawerMenu ul {
+    margin-right: 30px;
+    margin-top: 20px;
+    list-style: none;
+  }
+
+  .drawerMenu li {
+    float: right;
     font-size: 12px;
     margin-left: 5px;
     height: 35px;
     line-height: 35px;
+
   }
 
-  nav li a {
+  .drawerMenu li a {
     display: block;
     padding: 0 20px;
     font-weight: bold;
     color: gray;
   }
 
-  nav li a:hover{
+  .drawerMenu li a:hover{
     background-color: #b99566;
     color: white;
   }
 
-  .short {
+  nav.active {
+    display: none;
+  }
+
+  .menuButton {
     display: none;
   }
 
@@ -131,5 +140,3 @@
   .left {
     padding-right: 5px;
   }
-
-}
