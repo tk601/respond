@@ -15,22 +15,29 @@
           <img src="image/logo.png" alt="logo">
         </a>
       </div>
-      <nav>
-        <div class="short">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+      <a class="menuButton" id="menuButton">
+        <div></div>
+        <div></div>
+        <div></div>
+      </a>
+      <nav id="nav">
         <ul>
-          <li><a href="#">Information</a></li>
-          <li><a href="#">Gourmet</a></li>
+          <li><a href="#information">Information</a></li>
+          <li><a href="#gourmet">Gourmet</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
+      <div class="drawerMenu">
+        <ul>
+          <li><a href="#information">Information</a></li>
+          <li><a href="#gourmet">Gourmet</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
     </header>
     <img class="image" src="image/img_bg.jpg" alt="写真">
     <div class="container">
-      <div class="info">
+      <div class="info" id="information">
         <div class="info-name">
           <p>Information</p>
         </div>
@@ -55,74 +62,76 @@
           </ul>
         </div>
       </div>
-      <div class="info-name">
-        <p>Gourmet</p>
-      </div>
-      <div class="food">
-        <div class="food-list left">
-          <img src="image/img_top01.jpg" alt="パエリア">
-          <div class="food-name">
-            <h2>トミガヤ　テラス</h2>
-            <ul>
-              <li>渋谷</li>
-              <li>代々木公園</li>
-              <li>代々木八幡</li>
-            </ul>
-          </div>
-          <p>　-　チキンパエリア</p>
+      <div id="gourmet">
+        <div class="info-name">
+          <p>Gourmet</p>
         </div>
-        <div class="food-list right">
-          <img src="image/img_top02.jpg" alt="パスタ">
-          <div class="food-name">
-            <h2>ボンジョリーナ</h2>
-            <ul>
-              <li>池の上</li>
-              <li>下北沢</li>
-            </ul>
+        <div class="food">
+          <div class="food-list left">
+            <img src="image/img_top01.jpg" alt="パエリア">
+            <div class="food-name">
+              <h2>トミガヤ　テラス</h2>
+              <ul>
+                <li>渋谷</li>
+                <li>代々木公園</li>
+                <li>代々木八幡</li>
+              </ul>
+            </div>
+            <p>　-　チキンパエリア</p>
           </div>
-          <p>　-　イタリアンランチ</p>
-        </div>
-        <div class="food-list left">
-          <img src="image/img_top03.jpg" alt="ラーメン">
-          <div class="food-name">
-            <h2>揚州商人</h2>
-            <ul>
-              <li>渋谷センター街</li>
-            </ul>
+          <div class="food-list right">
+            <img src="image/img_top02.jpg" alt="パスタ">
+            <div class="food-name">
+              <h2>ボンジョリーナ</h2>
+              <ul>
+                <li>池の上</li>
+                <li>下北沢</li>
+              </ul>
+            </div>
+            <p>　-　イタリアンランチ</p>
           </div>
-          <p>　-　スーラータンメン</p>
-        </div>
-        <div class="food-list right">
-          <img src="image/img_top04.jpg" alt="スープカレー">
-          <div class="food-name">
-            <h2>カレー食堂　心</h2>
-            <ul>
-              <li>下北沢</li>
-            </ul>
+          <div class="food-list left">
+            <img src="image/img_top03.jpg" alt="ラーメン">
+            <div class="food-name">
+              <h2>揚州商人</h2>
+              <ul>
+                <li>渋谷センター街</li>
+              </ul>
+            </div>
+            <p>　-　スーラータンメン</p>
           </div>
-          <p>　-　骨付きチキンのスープカレー</p>
-        </div>
-        <div class="food-list left">
-          <img src="image/img_top05.jpg" alt="ラーメン">
-          <div class="food-name">
-            <h2>博多食堂</h2>
-            <ul>
-              <li>渋谷</li>
-              <li>神泉</li>
-            </ul>
+          <div class="food-list right">
+            <img src="image/img_top04.jpg" alt="スープカレー">
+            <div class="food-name">
+              <h2>カレー食堂　心</h2>
+              <ul>
+                <li>下北沢</li>
+              </ul>
+            </div>
+            <p>　-　骨付きチキンのスープカレー</p>
           </div>
-          <p>　-　博多ラーメン</p>
-        </div>
-        <div class="food-list right">
-          <img src="image/img_top06.jpg" alt="ピザ">
-          <div class="food-name">
-            <h2>UeCONA</h2>
-            <ul>
-              <li>渋谷</li>
-              <li>道玄坂</li>
-            </ul>
+          <div class="food-list left">
+            <img src="image/img_top05.jpg" alt="ラーメン">
+            <div class="food-name">
+              <h2>博多食堂</h2>
+              <ul>
+                <li>渋谷</li>
+                <li>神泉</li>
+              </ul>
+            </div>
+            <p>　-　博多ラーメン</p>
           </div>
-          <p>　-　シカゴピザ</p>
+          <div class="food-list right">
+            <img src="image/img_top06.jpg" alt="ピザ">
+            <div class="food-name">
+              <h2>UeCONA</h2>
+              <ul>
+                <li>渋谷</li>
+                <li>道玄坂</li>
+              </ul>
+            </div>
+            <p>　-　シカゴピザ</p>
+          </div>
         </div>
       </div>
     </div>
@@ -135,9 +144,11 @@
         <li><a href="#">Contact</a></li>
       </ul>
     </div>
-  </body>
   <footer>
     <a href="#"><img src="image/logo.png" alt=""></a>
     <p>Copyright © Colorful Clover, inc. All Rights Reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
+  </body>
 </html>
